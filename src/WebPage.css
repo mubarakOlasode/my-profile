@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Oi&family=Oswald:wght@300&family=Reggae+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Alata&family=Barlow+Semi+Condensed:wght@100&family=Bricolage+Grotesque&family=Dancing+Script:wght@500&family=Dongle:wght@300&family=Edu+TAS+Beginner&family=El+Messiri&family=Gluten:wght@200&family=Great+Vibes&family=Inconsolata:wght@200&family=Libre+Baskerville&family=Mynerve&family=Noto+Sans+JP:wght@800&family=Noto+Sans:wght@700&family=Playfair+Display&family=Quintessential&family=Sedgwick+Ave+Display&family=Tulpen+One&family=Ysabeau+Infant:wght@1&display=swap");
+.App {
+  display: flex;
+  margin-top: 0;
+  top: 0;
+  background-color: #183a37;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.App2 {
+  height: 100vh;
+  background-color: #333;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+@media only screen and (max-width: 500px) {
+  .App {
+    background-color: #183a37;
+  }
+  .App2 {
+    background-color: #333;
+  }
+}
+@media only screen and (max-width: 2000px) {
+  .App {
+    background-color: #183a37;
+  }
+  .App2 {
+    background-color: #333;
+  }
+}
+.li_Div {
+  display: flex;
+  padding-top: 20px 0px;
+  width: 100%;
+}
+.ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+@media only screen and (max-width: 500px) {
+  .ul {
+    margin-top: 10px;
+    justify-content: start;
+  }
+}
+.div_2 {
+  display: flex;
+  flex-direction: row;
+}
+.name_Div {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: 15rem;
+}
+@media only screen and (max-width: 2000px) {
+  .name_Div {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 15rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .name_Div {
+    height: 71vh;
+    width: 15rem;
+  }
+}
+.href_Div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 20rem;
+  margin-left: auto;
+}
+@media only screen and (max-width: 2000px) {
+  .href_Div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20rem;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .href_Div {
+    width: 8rem;
+    height: 71vh;
+    justify-content: flex-start;
+  }
+}
+.welcomeNote-Div {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .welcomeNote-Div {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+  }
+}
+.welcomeNote {
+  display: flex;
+  font-size: 2rem;
+  font-family: "Reggae One", cursive;
+  color: white;
+}
+@media only screen and (max-width: 2000px) {
+  .welcomeNote {
+    display: flex;
+    font-size: 2rem;
+    font-family: "Reggae One", cursive;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .welcomeNote {
+    display: flex;
+    font-size: 2rem;
+    font-family: "Reggae One", cursive;
+    color: white;
+    padding: 0;
+    margin-top: 0;
+  }
+}
+.sub_href {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+  color: #333;
+}
+@media only screen and (max-width: 2000px) {
+  .sub_href {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 2rem;
+    font-family: "Oswald", sans-serif;
+    color: #333;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .sub_href {
+    gap: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 100px;
+  }
+}
+.a {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+}
+.b,
+.c,
+.d,
+.e {
+  color: white;
+  text-decoration: none;
+}
+.mo {
+  display: flex;
+  font-family: "Reggae One", cursive;
+  font-size: 3rem;
+  color: white;
+  margin-left: 40px;
+}
+@media only screen and (max-width: 500px) {
+  .mo {
+    font-size: 1.5rem;
+    margin-left: 10px;
+  }
+}
+
+.name {
+  display: flex;
+  margin-top: auto;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  color: whitesmoke;
+  margin-left: 40px;
+}
+@media only screen and (max-width: 2000px) {
+  .name {
+    display: flex;
+    margin-top: auto;
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    color: whitesmoke;
+    margin-left: 40px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .name {
+    font-size: 1.5rem;
+    height: 100px;
+  }
+  .olasode {
+    margin-bottom: 0;
+  }
+}
+.icon {
+  height: 24px;
+  font-size: 30px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 2000px) {
+  .icon {
+    height: 24px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 1000px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .icon {
+    display: flex;
+    margin-left: 200px;
+  }
+}
+.imageContainer {
+  margin-left: 40px;
+  max-height: 300px;
+  max-width: 300px;
+  margin-top: 20px;
+}
+.myimage {
+  height: 100%;
+  width: 100%;
+  border: 5px solid transparent;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 2000px) {
+  .myimage {
+    height: 400px;
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .myimage {
+    height: 350px;
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 2000px) {
+  .clickme {
+    position: relative;
+    color: aliceblue;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .clickme {
+    position: relative;
+    margin-left: 180px;
+    color: aliceblue;
+  }
+}
+
+/* //The profile styling starts. */
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #183a37;
+}
+
+.h1 {
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  border: 1px solid orange;
+  padding: 10px 0px;
+  font-family: "Reggae One", cursive;
+}
+/* @media only screen and (max-width: 2000px) {
+  .h1 {
+    margin-left: 400px;
+  }
+} */
+@media only screen and (max-width: 500px) {
+  .h1 {
+    margin-left: 0px;
+  }
+}
+.p1 {
+  font-size: 1rem;
+  color: white;
+}
+.business-span {
+  font-weight: bold;
+}
+.paragraph-container {
+  height: 700px;
+  width: 620px;
+  text-align: center;
+  background-color: black;
+  padding: 30px 30px;
+  border: 20px solid white;
+  border-radius: 30px 30px;
+  border-style: ridge;
+  font-size: 1.1rem;
+  color: white;
+  font-family: "El Messiri", sans-serif;
+}
+.div1 {
+  padding: 30px 30px;
+  background-image: url("./Asset/image1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h2 {
+  font-size: 2.5rem;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+.video-section {
+  text-align: center;
+  background-color: #183a37;
+}
+.video-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  border-top: 2px solid black;
+  padding: 20px 0px;
+}
+.video-list aside {
+  border: 2px solid black;
+  border-radius: 15px 15px;
+  padding: 10px 10px;
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+}
+.video-list aside:hover {
+  color: white;
+}
+.homeBtn {
+  padding: 10px 0px;
+  color: white;
+  background-color: orange;
+  cursor: pointer;
+}
