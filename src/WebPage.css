@@ -1,178 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Oi&family=Oswald:wght@300&family=Reggae+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Alata&family=Barlow+Semi+Condensed:wght@100&family=Bricolage+Grotesque&family=Dancing+Script:wght@500&family=Dongle:wght@300&family=Edu+TAS+Beginner&family=El+Messiri&family=Gluten:wght@200&family=Great+Vibes&family=Inconsolata:wght@200&family=Libre+Baskerville&family=Mynerve&family=Noto+Sans+JP:wght@800&family=Noto+Sans:wght@700&family=Playfair+Display&family=Quintessential&family=Sedgwick+Ave+Display&family=Tulpen+One&family=Ysabeau+Infant:wght@1&display=swap");
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
 .App {
   display: flex;
-  margin-top: 0;
-  top: 0;
   background-color: #183a37;
-  height: 100vh;
+  height: 100%;
   box-sizing: border-box;
 }
 .App2 {
-  height: 100vh;
   background-color: #333;
+  display: flex;
+  height: 100%;
+  box-sizing: border-box;
 }
 .container {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-@media only screen and (max-width: 500px) {
-  .App {
-    background-color: #183a37;
-  }
-  .App2 {
-    background-color: #333;
-  }
-}
-@media only screen and (max-width: 2000px) {
-  .App {
-    background-color: #183a37;
-  }
-  .App2 {
-    background-color: #333;
-  }
-}
 .li_Div {
   display: flex;
+  flex-direction: row;
   padding-top: 20px 0px;
   width: 100%;
 }
 .ul {
   display: flex;
+  justify-content: space-between;
   list-style: none;
   width: 100%;
-}
-@media only screen and (max-width: 500px) {
-  .ul {
-    margin-top: 10px;
-    justify-content: start;
-  }
-}
-.div_2 {
-  display: flex;
-  flex-direction: row;
-}
-.name_Div {
-  display: flex;
-  flex-direction: column;
-  height: 70vh;
-  width: 15rem;
-}
-@media only screen and (max-width: 2000px) {
-  .name_Div {
-    display: flex;
-    flex-direction: column;
-    height: 70vh;
-    width: 15rem;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .name_Div {
-    height: 71vh;
-    width: 15rem;
-  }
-}
-.href_Div {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 20rem;
-  margin-left: auto;
-}
-@media only screen and (max-width: 2000px) {
-  .href_Div {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 20rem;
-    margin-left: auto;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .href_Div {
-    width: 8rem;
-    height: 71vh;
-    justify-content: flex-start;
-  }
-}
-.welcomeNote-Div {
-  display: flex;
-  justify-content: center;
-}
-
-@media only screen and (max-width: 500px) {
-  .welcomeNote-Div {
-    display: flex;
-    justify-content: center;
-    margin-left: 40px;
-  }
-}
-.welcomeNote {
-  display: flex;
-  font-size: 2rem;
-  font-family: "Reggae One", cursive;
-  color: white;
-}
-@media only screen and (max-width: 2000px) {
-  .welcomeNote {
-    display: flex;
-    font-size: 2rem;
-    font-family: "Reggae One", cursive;
-    color: white;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .welcomeNote {
-    display: flex;
-    font-size: 2rem;
-    font-family: "Reggae One", cursive;
-    color: white;
-    padding: 0;
-    margin-top: 0;
-  }
-}
-.sub_href {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  font-size: 2rem;
-  font-family: "Oswald", sans-serif;
-  color: #333;
-}
-@media only screen and (max-width: 2000px) {
-  .sub_href {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    font-size: 2rem;
-    font-family: "Oswald", sans-serif;
-    color: #333;
-    cursor: pointer;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .sub_href {
-    gap: 1rem;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-left: 40px;
-    margin-top: 100px;
-  }
-}
-.a {
-  color: white;
-  text-decoration: none;
-  margin: 0;
-}
-.b,
-.c,
-.d,
-.e {
-  color: white;
-  text-decoration: none;
 }
 .mo {
   display: flex;
@@ -181,96 +48,196 @@
   color: white;
   margin-left: 40px;
 }
-@media only screen and (max-width: 500px) {
-  .mo {
-    font-size: 1.5rem;
-    margin-left: 10px;
-  }
-}
-
-.name {
-  display: flex;
-  margin-top: auto;
-  width: 100%;
-  font-family: "Oswald", sans-serif;
-  font-size: 2rem;
-  color: whitesmoke;
-  margin-left: 40px;
-}
-@media only screen and (max-width: 2000px) {
-  .name {
-    display: flex;
-    margin-top: auto;
-    width: 100%;
-    font-family: "Oswald", sans-serif;
-    font-size: 2rem;
-    color: whitesmoke;
-    margin-left: 40px;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .name {
-    font-size: 1.5rem;
-    height: 100px;
-  }
-  .olasode {
-    margin-bottom: 0;
-  }
-}
 .icon {
   height: 24px;
   font-size: 30px;
   cursor: pointer;
 }
-@media only screen and (max-width: 2000px) {
-  .icon {
-    height: 24px;
-    font-size: 30px;
-    cursor: pointer;
-    margin-left: 1000px;
-  }
+.clickme {
+  position: relative;
+  color: aliceblue;
+  font-size: 0.8rem;
+  margin-top: -10px;
 }
-@media only screen and (max-width: 500px) {
-  .icon {
-    display: flex;
-    margin-left: 200px;
-  }
+.welcomeText-div {
+  text-align: center;
 }
-.imageContainer {
-  margin-left: 40px;
-  max-height: 300px;
-  max-width: 300px;
-  margin-top: 20px;
+.welcomeText {
+  font-size: 2rem;
+  font-family: "Reggae One", cursive;
+  color: white;
 }
+
+.div_2 {
+  display: flex;
+  flex-direction: row;
+}
+.name_Div {
+  display: flex;
+  flex-direction: column;
+}
+
 .myimage {
   height: 100%;
   width: 100%;
   border: 5px solid transparent;
   border-radius: 50%;
 }
-@media only screen and (max-width: 2000px) {
-  .myimage {
-    height: 400px;
-    width: 500px;
-  }
+.imageContainer {
+  margin-left: 40px;
+  height: 450px;
+  width: 450px;
+  margin-top: 10px;
 }
-@media only screen and (max-width: 500px) {
-  .myimage {
-    height: 350px;
-    width: 200px;
-  }
+.name {
+  display: flex;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  color: whitesmoke;
+  margin-left: 40px;
 }
-@media only screen and (max-width: 2000px) {
+.href_Div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+}
+.sub_href {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-right: 40px;
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+}
+
+.a {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+  cursor: pointer;
+}
+.sub_href a {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    width: 100%;
+    height: 100%;
+  }
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  #root {
+    width: 100%;
+    height: 100%;
+  }
+  .App {
+    width: 100%;
+    height: 100%;
+    background-color: #183a37;
+  }
+  .App2 {
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  .ul {
+    display: flex;
+    list-style: none;
+    margin: 0px 0px;
+    padding-top: 30px;
+  }
+  .mo {
+    font-size: 1.2rem;
+    margin-left: 10px;
+    font-family: "Reggae One", cursive;
+    color: white;
+  }
+
+  .welcomeText-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .welcomeText {
+    font-size: 1.2rem;
+    font-family: "Reggae One", cursive;
+    color: white;
+  }
+  .div_2 {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    margin-top: 70px;
+  }
+  .imageContainer {
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+  }
+
+  .myimage {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }
+  .href_Div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+  }
+
+  .sub_href {
+    gap: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Oswald", sans-serif;
+  }
+  .sub_href a {
+    color: white;
+    text-decoration: none;
+  }
+  .a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .name {
+    display: flex;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-top: 250px;
+    font-family: "Oswald", sans-serif;
+    color: whitesmoke;
+  }
+
   .clickme {
     position: relative;
+    margin-left: 200px;
     color: aliceblue;
+    font-size: 0.5rem;
+    margin-top: -10px;
   }
-}
-@media only screen and (max-width: 500px) {
-  .clickme {
-    position: relative;
-    margin-left: 180px;
-    color: aliceblue;
+
+  .icon {
+    display: flex;
+    margin-left: 200px;
+    height: 14px;
+    font-size: 30px;
+    cursor: pointer;
   }
 }
 
@@ -290,23 +257,53 @@
   padding: 10px 0px;
   font-family: "Reggae One", cursive;
 }
-/* @media only screen and (max-width: 2000px) {
-  .h1 {
-    margin-left: 400px;
-  }
-} */
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 400px) {
   .h1 {
     margin-left: 0px;
+    font-size: 1.5rem;
+  }
+  .paragraph-container {
+    text-align: center;
+    background-color: black;
+    padding: 30px 30px;
+    border: 20px solid white;
+    border-radius: 30px 30px;
+    border-style: ridge;
+    font-size: 0.5rem;
+    color: white;
+    font-family: "El Messiri", sans-serif;
+  }
+  h2 {
+    font-size: 1.5rem;
+    color: white;
+    font-family: "Oswald", sans-serif;
+  }
+  .video-list aside {
+    border: 2px solid black;
+    border-radius: 15px 15px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    font-family: "Oswald", sans-serif;
+  }
+  video {
+    height: 200px;
+    width: 200px;
+  }
+  .video-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+    list-style: none;
+    border-top: 2px solid black;
+    padding: 20px 0px;
+    width: 300px;
+    margin: 0px auto;
   }
 }
-.p1 {
-  font-size: 1rem;
-  color: white;
-}
-.business-span {
-  font-weight: bold;
-}
+
 .paragraph-container {
   height: 700px;
   width: 620px;

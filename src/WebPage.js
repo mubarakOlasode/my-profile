@@ -27,10 +27,8 @@ const WebPage = ({ onclick, onshow, changeTheme }) => {
           </li>
         </ul>
       </div>
-      <div>
-        <div className="welcomeNote-Div">
-          <p className="welcomeNote">You are welcome to my Page</p>
-        </div>
+      <div className="welcomeText-div">
+        <p className="welcomeText">You are welcome to my Page</p>
       </div>
       <div className="div_2">
         <div className="name_Div">
